@@ -73,7 +73,10 @@
     - 通用模型（如分页、响应结构）
 
 ## NoctMaple.SDK.Tests
-- SDK 的测试
+- SDK 的单元测试
+
+## NoctMaple.SDK.IntegrationTests
+- SDK 的集成测试
 
 ##  SDK 项目依赖关系
 - Primitives 不依赖任何解决方案的项目
