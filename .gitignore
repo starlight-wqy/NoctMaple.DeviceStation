@@ -1,69 +1,102 @@
-# Prerequisites
-*.d
+## =========================
+## Build 生成目录
+## =========================
+bin/
+obj/
+out/
+publish/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+## =========================
+## Visual Studio 文件
+## =========================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 
-# Precompiled Headers
-*.gch
-*.pch
+## Rider / VSCode
+.idea/
+.vscode/
 
-# Linker files
-*.ilk
+## =========================
+## NuGet
+## =========================
+*.nupkg
+packages/
+.nuget/
+project.lock.json
+project.assets.json
 
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# Build directories
-build/
-Build/
-build-*/
-
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
-
-# Temporary files
-*.tmp
+## =========================
+## 日志 / 临时文件
+## =========================
 *.log
+*.tmp
+*.temp
+*.cache
+
+## =========================
+## 系统文件
+## =========================
+.DS_Store
+Thumbs.db
+
+## =========================
+## 测试结果
+## =========================
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## =========================
+## 发布 / 部署
+## =========================
+*.publishsettings
+*.pubxml
+*.azurePubxml
+
+## =========================
+## Resharper / 分析工具
+## =========================
+_ReSharper*/
+*.DotSettings.user
+
+## =========================
+## EF Core（可选）
+## =========================
+Migrations/
+
+## =========================
+## 本地配置（建议忽略）
+## =========================
+appsettings.Development.json
+appsettings.Local.json
+
+## =========================
+## SQLite / 本地数据库（按需）
+## =========================
+*.db
+*.sqlite
+*.sqlite3
+
+## =========================
+## 证书 / 密钥（非常重要）
+## =========================
+*.pfx
+*.snk
+secrets.json
+
+## =========================
+## 前端（如果有）
+## =========================
+node_modules/
+dist/
+build/
+
+## =========================
+## 其他
+## =========================
 *.bak
 *.swp
-
-# vcpkg
-vcpkg_installed/
-
-# debug information files
-*.dwo
-
-# test output & cache
-Testing/
-.cache/

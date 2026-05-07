@@ -1,0 +1,12 @@
+<Solution>
+  <Project Path="src/apps/NoctMaple.DeviceStation/NoctMaple.DeviceStation.csproj" Id="8c25c80f-3cc5-408e-95b2-75556547bf1b" />
+  <Project Path="src/sdk/NoctMaple.SDK.Abstractions/NoctMaple.SDK.Abstractions.csproj" Id="14a846e5-94cc-4e7e-bc1b-764a5514d18b" />
+  <Project Path="src/sdk/NoctMaple.SDK.Core/NoctMaple.SDK.Core.csproj" Id="29c5c7f0-643f-4888-98a3-42399ee63765" />
+  <Project Path="src/sdk/NoctMaple.SDK.Extensions/NoctMaple.SDK.Extensions.csproj" Id="27d2836f-3aa0-4490-8b19-72ecd0e81447" />
+  <Project Path="src/sdk/NoctMaple.SDK.Infrastructure/NoctMaple.SDK.Infrastructure.csproj" Id="40f07c67-5d0c-4209-b1c8-5831dc158def" />
+  <Project Path="src/sdk/NoctMaple.SDK.Primitives/NoctMaple.SDK.Primitives.csproj" Id="b1dde357-4126-4d1f-a671-0e715d230126" />
+  <Project Path="src/sdk/NoctMaple.SDK/NoctMaple.SDK.csproj" Id="3d8eae97-6751-41e6-af2a-92d52ef87bca" />
+  <Project Path="src/tools/NoctMaple.ProtocolForge/NoctMaple.ProtocolForge.csproj" Id="673c3451-ac28-487e-8473-f471966f5318" />
+  <Project Path="tests/NoctMaple.SDK.IntegrationTests/NoctMaple.SDK.IntegrationTests.csproj" Id="b548c836-f447-44b1-9ade-4f2f808214ab" />
+  <Project Path="tests/NoctMaple.SDK.Tests/NoctMaple.SDK.Tests.csproj" Id="bf81a3ab-3ba0-4e90-9189-7357a4ffe7d7" />
+</Solution>
